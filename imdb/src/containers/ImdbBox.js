@@ -40,9 +40,11 @@ class ImdbBox extends Component{
   render(){
     return(
       <div className="imdb-container">
+
         <h1>UK opening this week</h1>
         <MovieList data={this.state.movieData}></MovieList>
         <Showtimes/>
+        
       </div>
     )
   }
